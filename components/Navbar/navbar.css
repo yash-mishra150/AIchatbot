@@ -4,11 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Nunito", sans-serif, poppins, share tech, Norican;
-  background: #28282B;
-}
-
 .siteLogo {
   font-family: Norican;
   color: white;

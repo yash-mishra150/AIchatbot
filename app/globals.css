@@ -6,5 +6,12 @@
 
 body {
   font-family: "Nunito", sans-serif, poppins, share tech, Norican;
-  background: (#28282B,url('../assests/3443.png_1200.png'));
+  background: url("./backgroundimage.jpg"),rgba(0, 0, 0, 0.925);
+  z-index: -1;
+}
+.Btn:hover .text {
+  @apply opacity-100 w-[70%] duration-[0.3s] pr-2.5;
+}
+.Btn:hover .sign {
+  @apply w-[30%] duration-[0.3s] pl-5;
 }
